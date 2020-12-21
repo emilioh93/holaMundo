@@ -9,9 +9,15 @@ function saludar(nombre, apellido) {
 }
 
 // Funciones que retornan un valor
-function convertirPesosDolar(pesos) {
+// function convertirPesosDolar(pesos) {
+//     let montoFinal = pesos / 88;
+//     return montoFinal.toFixed(2); //la función toFixed nos permite recortar los decimales
+// }
+
+// arrow function o funciones en forma de flecha
+let convertirPesosDolar = (pesos) => {
     let montoFinal = pesos / 88;
-    return montoFinal.toFixed(2); //la función toFixed nos permite recortar los decimales
+    return montoFinal.toFixed(2);
 }
 
 // Llamar o invocar una función
